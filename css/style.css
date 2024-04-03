@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma;
+	background-color: yellow;
+}
+
+.content {
+	width: 60%;
+	background-color: rgb(95, 17, 17);
+	min-height: 90vh;
+	position: relative;
+}
+
+.logo {
+	height: 100px;
+}
+
+.chosenMonkeys {
+	height: 200px;
+	width: 260px;
+	margin: 5px;
+}
+
+.monkeyCategories {
+	height: 300px;
+	width: 340px;
+}
+
+.button {
+	background-color: blue;
+	color: yellow;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 30px;
+}
+
+.buttonContainer {
+	height: 100px;
+	width: 100%;
+	position: relative;
+}
+
+.buttonContainer .button {
+	position: absolute;
+  	top: 10%;
+  	left: 47%;
+  	transform: translate(-50%, -50%);
+}
+
+header {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 110px;
+	width: 100%;
+}
+
+header, footer {
+	background-color: lightskyblue;
+}
+
+header ul {
+	display: flex;
+	list-style-type: none;
+}
+
+header ul li a {
+	text-decoration: none;
+	margin: 0 60px;
+}
+
+header img {
+	margin: 0 40px;
+}
+
+main {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+h2 {
+	font-size: 28px;
+	text-align: center;
+	margin: 40px 0;
+}
+
+h6 {
+	font-size: 24px;
+	margin: 10px 0px;
+}
+
+h1, h2, h6, p, a {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue
+}
+
+.button:hover {
+	color: blue;
+	background-color: yellow;
+	transition: 0.7s ;
+}
+
+.chosenMonkeysSection {
+	width: 100%;
+	display: flex;
+	margin-top: 50px;
+	align-items: center;
+	justify-content: center;
+}
+
+.typesOfMonkeys, .mapSection, .contactUs{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.monkeyType {
+	margin: 0 40px;
+	text-align: center;
+}
+
+footer {
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.contactUs section{
+	margin: 40px;
+	text-align: center;
+}
+
+.offer {
+	border: 1px solid yellow;
+	width: 80%;
+	position: relative;
+	left: 10%;
+	margin: 20px 0;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.offer img{
+	height: 300px;
+	width: 350px;
+	border: 1px solid yellow;
+}
+
+.aboutUsContent p {
+	margin: 40px;
+}
